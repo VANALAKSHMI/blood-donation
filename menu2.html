@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+  <title>Blood Bank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="menu1.html">About</a></li>
+        <li><a href="menu2.html">Members</a></li>
+		<li><a href="menu3.html">Reference</a></li>
+		<li><a href="menu4.html">Gallery</a></li>
+        <li><a href="menu5.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-justify">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <div ><marquee id='scroll_news' direction="up"
+style="font-family:Book Antiqua; 
+color: #FFFFFF"  >
+<div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();">
+        <p><font color="red"><h4>You can give blood if you:<br>
+		<font color="blue">
+	       <span class="glyphicon glyphicon-arrow-right" ></span> Weigh between 7 stone 12 lbs and 25 stone, or 50kg and 160kg.<br>
+       <span class="glyphicon glyphicon-arrow-right" ></span> Are aged between 17 and 66 (or 70 if you have given blood before)<br>
+		<span class="glyphicon glyphicon-arrow-right" ></span> Are over 70 and have given blood in the last two years.<br>
+		<span class="glyphicon glyphicon-arrow-right" ></span> Are fit and healthy.</h4><br></marquee >
+		<font color="red"><h4>How often can I give blood?<br>
+<font color="blue"><span class="glyphicon glyphicon-arrow-right" ></span> Men can give blood every 12 weeks and<br>
+<font color="blue"><span class="glyphicon glyphicon-arrow-right" ></span> women can give blood every 16 weeks.<br>
+		</h4></p>
+      </div>
+      
+    </div>
+    <div class="col-sm-8 text-left" > 
+      
+	  <table class="table" class="table-responsive" class="d-flex flex-column" >
+    <thead>
+      <tr  class="p-2 bg-info">
+        <th >Name</th>
+        <th>Age</th>
+        <th>Blood Group</th>
+		<th>Contact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="p-2 bg-danger">
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>      
+      <tr class="p-2 bg-primary">
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+	  <tr >
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+	  <tr >
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+	  <tr>
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+	  <tr>
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+	  <tr>
+        <td>Vana</td>
+        <td>20</td>
+        <td>O+</td>
+		<td>9385644701</td>
+      </tr>   
+    </tbody>
+  </table>
+	  
+	  
+	  
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+         <img src="img/18.jpg" class="img-responsive"  alt="Image">
+      </div>
+      
+	  <div class="well">
+         <p><font color="red"><h4>Can I give Blood??</p></h4>
+      </div>
+	  <div class="well">
+        <img src="img/20.jpg" class="img-responsive"  alt="Image">
+      </div>
+	  
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p><h3>A bottle of blood saved my life, was it yours? Every blood donor is a life saver...</h3></p>
+</footer>
+
+</body>
+</html>
+
+   
